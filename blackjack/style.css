@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+}
+
+#table {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    border-bottom-right-radius: 450px;
+    border-bottom-left-radius: 450px;
+    background-color: #2F5D24;
+}
+
+#dealer_cards, #player_cards {
+    padding: 10px;
+    height: 140px;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    height: 130px;
+    margin: 5px;
+}
+
+#player_value, #dealer_value, #win_counter, #msg {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#msg {
+    font-size: 120%;
+}
+
+#game_state {
+    margin: 20px auto;
+    height: 100px;
+    width: 650px;
+    border: 1px solid white;
+}
+
+#buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#buttons button {
+    display: inline-block;
+}
